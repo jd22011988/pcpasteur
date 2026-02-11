@@ -11,16 +11,13 @@ export const TitleSlide = () => {
           </p>
         </div>
 
-        {/* Client name */}
+        {/* Client logo */}
         <div className="my-10 opacity-0 animate-scale-in animation-delay-100">
-          <div className="inline-flex items-center gap-3">
-            <span className="text-4xl md:text-5xl font-bold text-primary tracking-tight">
-              PASTEUR
-            </span>
-            <span className="text-lg md:text-xl text-muted-foreground font-light">
-              Colombia
-            </span>
-          </div>
+          <img
+            src="/pasteur-logo.png"
+            alt="Farmacia Pasteur"
+            className="h-16 md:h-20 mx-auto object-contain"
+          />
         </div>
 
         {/* Main title */}
