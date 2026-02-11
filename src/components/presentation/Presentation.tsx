@@ -6,6 +6,9 @@ import { NonAssignmentSlide } from "./slides/NonAssignmentSlide";
 import { RefundsSlide } from "./slides/RefundsSlide";
 import { ROISlide } from "./slides/ROISlide";
 import { OfferSlide } from "./slides/OfferSlide";
+import { ClientsSlide } from "./slides/ClientsSlide";
+import { CoverageSlide } from "./slides/CoverageSlide";
+import { GuaranteesSlide } from "./slides/GuaranteesSlide";
 import { SlideIndicator } from "./SlideIndicator";
 import { NavigationControls } from "./NavigationControls";
 
@@ -17,6 +20,9 @@ const slides = [
   { component: RefundsSlide, key: "incidents" },
   { component: ROISlide, key: "roi" },
   { component: OfferSlide, key: "offer" },
+  { component: ClientsSlide, key: "clients" },
+  { component: CoverageSlide, key: "coverage" },
+  { component: GuaranteesSlide, key: "guarantees" },
 ];
 
 export const Presentation = () => {
